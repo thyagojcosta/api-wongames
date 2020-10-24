@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paltaforms",
+      "handler": "paltaform.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paltaforms/count",
+      "handler": "paltaform.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paltaforms/:id",
+      "handler": "paltaform.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/paltaforms",
+      "handler": "paltaform.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paltaforms/:id",
+      "handler": "paltaform.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paltaforms/:id",
+      "handler": "paltaform.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
