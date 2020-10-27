@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "paltaforms",
+  "collectionName": "platforms",
   "info": {
-    "name": "paltaform"
+    "name": "platform",
+    "description": ""
   },
   "options": {
     "increments": true,
